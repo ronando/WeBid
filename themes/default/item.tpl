@@ -191,7 +191,7 @@ $(document).ready(function() {
 		  </table>
 		</td>
 		<td width="2%">&nbsp;</td>
-		<td width="37%" valign="top" bgcolor="#ffffff" align="left">
+		<td width="37%" valign="top" bgcolor="#F5F5F5" align="left">
           <div class="titTable1">
           	<b>{L_30_0209}</b>
           </div>
@@ -223,7 +223,7 @@ $(document).ready(function() {
 			  </td>
 			</tr>
 		  </table>
-		  <div class="titTable1">
+		  <div class="bid-box">
 <!-- IF B_HASENDED eq false and B_CAN_BUY -->
 	<!-- IF B_NOTBNONLY -->
 				<table width="100%" border=0 cellpadding=2 cellspacing=0 border=1>
@@ -239,6 +239,7 @@ $(document).ready(function() {
 		<!-- ENDIF -->
 							{L_121} <input type="text" name="bid" size="15">
 		<!-- IF ATYPE eq 1 -->
+		                <br>
 						{L_124}: {NEXTBID}
 						 <br>
 		<!-- ENDIF -->
@@ -252,7 +253,7 @@ $(document).ready(function() {
 					 <input type="hidden" name="category" value="{CAT_ID}" >
 					 <input type="hidden" name="id" value="{ID}">
                      <input type="hidden" name="csrftoken" value="{_CSRFTOKEN}">
-					 <input type="submit" name="" value="{L_30_0208}" class="button">
+					 <input type="submit" name="" value="{L_30_0208}" class="bid-button">
 					</td>
 				  </tr>
 				</form>
