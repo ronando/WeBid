@@ -72,7 +72,7 @@ body {
 
 .wrapper {
 	width: 100%;
-	margin: 25px auto auto 0px;
+	margin: 12px auto auto 0px;
 	padding-top:10px;
 	min-width: 900px;
 }
@@ -249,32 +249,60 @@ td {
     background-position: center;
 }
 
-.navbar {
-	width: 100% clear : both;
-	color: #FFF;
-	height: 64px;
-	padding: 15px 10%;
-	background: #000;
-	margin-top: 5px;
-	margin-bottom: 5px;
+.header-nav {
+  position: relative;
+  z-index: 2;
+  display: block;
+  color: #FFF;
+  width: 100%;
+  height: 65px;
+  padding: 15px 0;
+  background: #000;
+  overflow: visible;
+  margin-top: 5px;
+  margin-bottom: 45px;
 }
 
-.navbar ul {
-	width:70%
-	display: block;
-	overflow:hidden; 
-	margin: 20px auto;
+.navbar {
+  width: 40%;
+  margin: 0;
+  float: left;
+}
+
+.navbar li {
+  float: left;
+  width: 33.3%;
+  text-align: left;
+  display: block;
+  list-style: none;
+  text-transform: uppercase;
+  line-height: 64px;
+  font-size: 14px;
+}
+
+.last {
+  padding-right: 0;
+}
+
+.navbar:last-child li {
+  text-align: right;
+}
+
+.navbar-log {
+	width:14%;
+	float: left;
+	margin: -50px 0 0 0;
 }
 
 .navbar ul li {
 	list-style: none;
 	display: block;
-	width: 16%;
+	width: 33.3%;
     text-align:center;
     font-size: 14px;
     float: left;
     text-transform: uppercase;
-	}
+}
 	
 .navbar a{
     color: #FFF;
@@ -288,6 +316,10 @@ td {
     text-align: center;
    }
 }  
+
+.navbar img{
+	margin-top: -30px;
+}
 
 .navbar a:hover {
 	color: #ef3954;
