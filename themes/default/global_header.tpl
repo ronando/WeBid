@@ -83,6 +83,11 @@
 					<div class="navbar-log"><img src="images/anytime_logo.png" />
 					</div>
 					<ul class="navbar last">
+						<!-- IF B_BOARDS -->
+						<li>
+							<a href="{SITEURL}boards.php">{L_5030}</a>
+						</li>
+						<!-- ENDIF -->
 						<!-- IF B_LOGGED_IN -->
 						<li>
 							<a href="{SSLURL}logout.php?">{L_245}</a>
@@ -90,11 +95,6 @@
 						<!-- ELSE -->
 						<li>
 							<a href="{SSLURL}register.php?">{L_235}</a>
-						</li>
-						<!-- ENDIF -->
-						<!-- IF B_BOARDS -->
-						<li>
-							<a href="{SITEURL}boards.php">{L_5030}</a>
 						</li>
 						<!-- ENDIF -->
 						<li>
